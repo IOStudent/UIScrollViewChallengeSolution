@@ -21,6 +21,7 @@
 		A97B940318C50970006FE5DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97B93E518C50970006FE5DF /* UIKit.framework */; };
 		A97B940B18C50970006FE5DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A97B940918C50970006FE5DF /* InfoPlist.strings */; };
 		A97B940D18C50970006FE5DF /* UIScrollViewChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B940C18C50970006FE5DF /* UIScrollViewChallengeSolutionTests.m */; };
+		A97B941718C52DE2006FE5DF /* worldMap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A97B941618C52DE2006FE5DF /* worldMap.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A97B940818C50970006FE5DF /* UIScrollViewChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollViewChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		A97B940A18C50970006FE5DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A97B940C18C50970006FE5DF /* UIScrollViewChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewChallengeSolutionTests.m; sourceTree = "<group>"; };
+		A97B941618C52DE2006FE5DF /* worldMap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldMap.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		A97B93E818C50970006FE5DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A97B941618C52DE2006FE5DF /* worldMap.jpeg */,
 				A97B93E918C50970006FE5DF /* UIScrollViewChallengeSolution-Info.plist */,
 				A97B93EA18C50970006FE5DF /* InfoPlist.strings */,
 				A97B93ED18C50970006FE5DF /* main.m */,
@@ -232,6 +235,7 @@
 				A97B93FA18C50970006FE5DF /* Images.xcassets in Resources */,
 				A97B93EC18C50970006FE5DF /* InfoPlist.strings in Resources */,
 				A97B93F518C50970006FE5DF /* Main.storyboard in Resources */,
+				A97B941718C52DE2006FE5DF /* worldMap.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +387,7 @@
 				GCC_PREFIX_HEADER = "UIScrollViewChallengeSolution/UIScrollViewChallengeSolution-Prefix.pch";
 				INFOPLIST_FILE = "UIScrollViewChallengeSolution/UIScrollViewChallengeSolution-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,6 +401,7 @@
 				GCC_PREFIX_HEADER = "UIScrollViewChallengeSolution/UIScrollViewChallengeSolution-Prefix.pch";
 				INFOPLIST_FILE = "UIScrollViewChallengeSolution/UIScrollViewChallengeSolution-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
